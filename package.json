@@ -24,7 +24,7 @@
     "dev": "npm run build && npm run dev:start",
     "dev:start": "node --env-file .env ./dist/index.js",
     "predocker": "npm run build",
-    "docker": "docker compose up -d --build",
+    "docker": "docker compose up -d",
     "format": "prettier --write .",
     "format-lint": "npm run format && npm run lint",
     "lint": "eslint . --fix",
