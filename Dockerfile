@@ -13,7 +13,6 @@ FROM node:lts-slim
 WORKDIR /app
 ENV NODE_ENV=production
 
-COPY ./firebase-service-acc ./firebase-service-acc
 COPY package*.json ./
 
 COPY --from=builder /app/dist ./dist
