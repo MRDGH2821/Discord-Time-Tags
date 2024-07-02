@@ -29,5 +29,5 @@
     "resolveFullPaths": true
   },
   "include": ["src/**/*.ts"],
-  "exclude": ["node_modules", ".vscode", "./old-src", "./out/*"]
+  "exclude": ["node_modules", ".vscode", "./old-src", "./out/*", "./dist/*"]
 }

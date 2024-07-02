@@ -7,3 +7,4 @@ betaconfig.json
 deploy-stats.txt
 out/*
 megalinter-reports/
+dist/*
