@@ -1,33 +1,10 @@
 {
+  "extends": ["@sapphire/ts-config"],
   "compilerOptions": {
-    "allowJs": false,
-    "allowSyntheticDefaultImports": true,
-    "baseUrl": "./src",
-    "declaration": true,
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "importHelpers": true,
-    "inlineSources": true,
-    "lib": ["ES2019", "DOM", "ESNext"],
-    "module": "CommonJS",
-    "moduleResolution": "node",
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "outDir": "dist",
-    "sourceMap": true,
-    "strict": true,
-    "strictNullChecks": true,
-    "target": "ESNext",
-    "resolveJsonModule": true,
-    "removeComments": true
+    "incremental": false,
+    "noEmit": true,
+    "rootDir": "./src"
   },
-  "ts-node": {
-    "require": ["tsconfig-paths/register"],
-    "swc": true
-  },
-  "tsc-alias": {
-    "resolveFullPaths": true
-  },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules", ".vscode", "./old-src", "./out/*", "./dist/*"]
+  "exclude": ["node_modules", ".vscode", "./old-src", "./out/*", "./dist/*"],
+  "include": ["src/**/*.ts"]
 }
