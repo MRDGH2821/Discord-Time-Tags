@@ -20,14 +20,16 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc && tsc-alias",
-    "dev": "nodemon index.js",
+    "dev": "npm run build && npm run dev:start",
+    "dev:start": "node --env-file .env ./dist/index.js",
     "predocker": "npm run build",
     "docker": "docker compose up -d --build",
+    "format": "prettier --write .",
+    "format-lint": "npm run format && npm run lint",
     "lint": "eslint . --fix",
-    "lint:mega": "npx mega-linter-runner@latest --flavor javascript",
-    "monitor": "nodemon -r dotenv/config src/index.ts",
-    "pretty": "prettier --write .",
-    "postpretty": "npm run lint"
+    "mega-lint": "npx mega-linter-runner@latest --flavor javascript",
+    "sort-pkg": "npx sort-package-json",
+    "postsort-pkg": "npx prettier --write package.json"
   },
   "dependencies": {
     "@vvo/tzdb": "^6.140.0",
