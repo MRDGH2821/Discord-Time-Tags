@@ -27,12 +27,6 @@ DISCORD_GUILD_ID = insert test server ID
 
 For more info click [here](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot) & [here](https://discordjs.guide/creating-your-bot/)
 
-You may also use pm2. Check the guide [here](https://discordjs.guide/improving-dev-environment/pm2.html)
-
-```bash
-pm2 start time-tag.config.js --env prod
-```
-
 ## How to update self-hosted version?/How to reset the Bot code?
 
 Use the following command:
