@@ -1,10 +1,10 @@
 .env
-discord.log
-config.json
-node_modules
+.env.*
 betaconfig.json
-.env.dev
+config.json
 deploy-stats.txt
-out/*
-megalinter-reports/
+discord.log
 dist/*
+megalinter-reports/
+node_modules
+out/*
