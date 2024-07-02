@@ -58,5 +58,10 @@
     "tsc-alias": "^1.8.10",
     "tsconfig-paths": "^4.2.0",
     "typescript": "5.4.5"
-  }
+  },
+  "engines": {
+    "bun": ">=1.0.0",
+    "node": ">=20.6.0"
+  },
+  "engineStrict": true
 }
