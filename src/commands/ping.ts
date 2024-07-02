@@ -1,5 +1,5 @@
-import { RequestTypes } from 'detritus-client-rest';
 import { InteractionCommand } from 'detritus-client/lib/interaction';
+import { RequestTypes } from 'detritus-client-rest';
 import { COLORS } from '../lib/Constants';
 
 export default new InteractionCommand({

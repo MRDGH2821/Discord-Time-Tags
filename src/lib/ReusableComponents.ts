@@ -1,10 +1,10 @@
-import { RequestTypes } from 'detritus-client-rest';
 import {
   ApplicationCommandOptionTypes,
   MessageComponentButtonStyles,
 } from 'detritus-client/lib/constants';
 import { InteractionCommandOptionOptions } from 'detritus-client/lib/interaction';
 import { ComponentActionRow } from 'detritus-client/lib/utils';
+import { RequestTypes } from 'detritus-client-rest';
 import { homepage } from '../../package.json';
 import { HAMMER_TIME_LINK, SUPPORT_INVITE } from './Constants';
 import { offSetMinutesToClock, searchTZ } from './Utilities';
