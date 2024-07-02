@@ -22,9 +22,9 @@ For more info click [here](https://discordjs.guide/preparations/setting-up-a-bot
 - Put relevant data in the `.env` file -
 
 ```env
-DISCORD_CLIENT_ID = insert client ID
+DISCORD_CLIENT_ID = insert client ID (optional)
 DISCORD_TOKEN = insert bot token
-DISCORD_GUILD_ID = insert test server ID
+DISCORD_GUILD_ID = insert test server ID (optional)
 ```
 
 ### Non-Docker method
