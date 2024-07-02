@@ -13,13 +13,12 @@
     "moduleResolution": "node",
     "noImplicitAny": true,
     "noImplicitReturns": true,
-    "outDir": "out",
+    "outDir": "dist",
     "sourceMap": true,
     "strict": true,
     "strictNullChecks": true,
     "target": "ESNext",
     "resolveJsonModule": true,
-    "watch": false,
     "removeComments": true
   },
   "ts-node": {
