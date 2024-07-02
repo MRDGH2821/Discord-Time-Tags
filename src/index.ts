@@ -1,3 +1,4 @@
+import './healthinfo';
 import { ClusterClient, InteractionCommandClient } from 'detritus-client';
 import interactionCreate from './events/interactionCreate';
 import ready from './events/ready';
