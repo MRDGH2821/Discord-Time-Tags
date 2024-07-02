@@ -1,6 +1,6 @@
 {
   "name": "discord-time-tag-bot",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "private": true,
   "description": "Generating Discord Time Tags made easy!",
   "keywords": [
