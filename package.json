@@ -19,7 +19,8 @@
   },
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc && tsc-alias",
+    "prebuild": "node ./clean-dist.cjs",
+    "build": "tsup",
     "dev": "npm run build && npm run dev:start",
     "dev:start": "node --env-file .env ./dist/index.js",
     "predocker": "npm run build",
@@ -54,9 +55,7 @@
     "prettier": "^3.3.2",
     "prettier-config-mrdgh2821": "^3.0.0",
     "prettier-plugin-packagejson": "^2.5.0",
-    "regenerator-runtime": "^0.14.1",
-    "tsc-alias": "^1.8.10",
-    "tsconfig-paths": "^4.2.0",
+    "tsup": "^8.1.0",
     "typescript": "5.4.5"
   },
   "engines": {
