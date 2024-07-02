@@ -27,7 +27,7 @@ GUILD_ID = insert test server ID
 ```
 
 4. Install dependencies by using `npm install`.
-5. Use `npm docker` to run the bot code.
+5. Use `npm run docker` to run the bot code.
 
 For more info click [here](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot) & [here](https://discordjs.guide/creating-your-bot/)
 
