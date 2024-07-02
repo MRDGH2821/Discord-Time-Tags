@@ -1,9 +1,11 @@
 {
   "extends": ["eslint-config-airbnb-base", "eslint-config-airbnb-typescript/base"],
+  "plugins": ["simple-import-sort"],
   "parserOptions": {
     "project": ["tsconfig.json", "tsconfig.eslint.json"]
   },
   "rules": {
-    "no-console": "off"
+    "no-console": "off",
+    "import/order": "off"
   }
 }
