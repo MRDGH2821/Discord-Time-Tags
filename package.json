@@ -1,9 +1,15 @@
 {
   "name": "discord-time-tag-bot",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "private": true,
   "description": "Generating Discord Time Tags made easy!",
-  "keywords": ["discord", "time", "tag", "time tag", "timestamp"],
+  "keywords": [
+    "discord",
+    "time",
+    "tag",
+    "time tag",
+    "timestamp"
+  ],
   "homepage": "https://github.com/MRDGH2821/Discord-Time-Tag-Bot#readme",
   "bugs": {
     "url": "https://github.com/MRDGH2821/Discord-Time-Tag-Bot/issues"
