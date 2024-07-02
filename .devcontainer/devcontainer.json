@@ -1,0 +1,42 @@
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense",
+        "cschlosser.doxdocgen",
+        "DavidAnson.vscode-markdownlint",
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens",
+        "EditorConfig.EditorConfig",
+        "esbenp.prettier-vscode",
+        "evondev.indent-rainbow-palettes",
+        "exiasr.hadolint",
+        "foxundermoon.shell-format",
+        "idered.npm",
+        "MichaelCurrin.auto-commit-msg",
+        "ms-azuretools.vscode-docker",
+        "oderwat.indent-rainbow",
+        "p42ai.refactor",
+        "Phu1237.vs-browser",
+        "redhat.vscode-yaml",
+        "spmeesseman.vscode-taskexplorer",
+        "streetsidesoftware.code-spell-checker",
+        "usernamehw.errorlens",
+        "wdhongtw.gpg-indicator"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/gh-cli": {},
+    "ghcr.io/devcontainers-contrib/features/npm-package:1": {
+      "package": "mega-linter-runner"
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker": {},
+    "ghcr.io/dhoeric/features/hadolint:1": {},
+    "ghcr.io/joshuanianji/devcontainer-features/github-cli-persistence:1": {}
+  },
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
+  "name": "Time Tag Generator bot Dev Container",
+  "postCreateCommand": "npm install"
+}
