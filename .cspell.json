@@ -16,5 +16,15 @@
   "noConfigSearch": true,
   "useGitignore": true,
   "version": "0.2",
-  "words": ["megalinter", "oxsecurity"]
+  "words": [
+    "buildx",
+    "fulcio",
+    "megalinter",
+    "mrdgh",
+    "oxsecurity",
+    "rekor",
+    "stefanzweifel",
+    "tzdb",
+    "venv"
+  ]
 }
