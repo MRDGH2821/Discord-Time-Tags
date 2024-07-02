@@ -16,6 +16,9 @@ const compat = new FlatCompat({
 export default [
   ...compat.extends('eslint-config-airbnb-base', 'eslint-config-airbnb-typescript/base'),
   {
+    ignores: ['**/dist/**', '.prettierrc.cjs'],
+  },
+  {
     plugins: {
       'simple-import-sort': simpleImportSort,
     },
