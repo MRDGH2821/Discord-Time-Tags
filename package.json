@@ -29,7 +29,9 @@
     "lint": "eslint . --fix",
     "mega-lint": "npx mega-linter-runner@latest --flavor javascript",
     "sort-pkg": "npx sort-package-json",
-    "postsort-pkg": "npx prettier --write package.json"
+    "postsort-pkg": "npx prettier --write package.json",
+    "prestart": "npm run build",
+    "start": "node ./dist/index.js"
   },
   "dependencies": {
     "@vvo/tzdb": "^6.140.0",
