@@ -1,7 +1,7 @@
 version: '3.9'
 
 services:
-  app:
+  ttg-bot:
     container_name: ttg_bot
     environment:
       - NODE_ENV=production
