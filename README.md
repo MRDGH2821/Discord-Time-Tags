@@ -17,9 +17,9 @@ Bot Permissions -
 3. Put relevant data in the `.env.prod` file -
 
 ```env
-CLIENT_ID = insert client ID
-TOKEN = insert bot token
-GUILD_ID = insert test server ID
+DISCORD_CLIENT_ID = insert client ID
+DISCORD_TOKEN = insert bot token
+DISCORD_GUILD_ID = insert test server ID
 ```
 
 4. Install dependencies by using `npm install`.
