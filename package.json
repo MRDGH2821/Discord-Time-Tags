@@ -21,6 +21,7 @@
   "scripts": {
     "prebuild": "node ./clean-dist.cjs",
     "build": "tsup",
+    "changelog": "npx commit-and-tag-version --sign --dry-run",
     "dev": "npm run build && npm run dev:start",
     "dev:start": "node --env-file .env ./dist/index.js",
     "predocker": "npm run build",
