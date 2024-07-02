@@ -3,62 +3,56 @@
   "version": "2.0.0",
   "private": true,
   "description": "Generating Discord Time Tags made easy!",
-  "main": "index.js",
-  "scripts": {
-    "build": "tsc && tsc-alias",
-    "dev": "nodemon index.js",
-    "lint": "eslint . --fix",
-    "pretty": "prettier --write .",
-    "postpretty": "npm run lint",
-    "lint:mega": "npx mega-linter-runner@latest --flavor javascript",
-    "predocker": "npm run build",
-    "docker": "docker compose up -d --build",
-    "monitor": "nodemon -r dotenv/config src/index.ts"
+  "keywords": ["discord", "time", "tag", "time tag", "timestamp"],
+  "homepage": "https://github.com/MRDGH2821/Discord-Time-Tag-Bot#readme",
+  "bugs": {
+    "url": "https://github.com/MRDGH2821/Discord-Time-Tag-Bot/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MRDGH2821/Discord-Time-Tag-Bot.git"
   },
-  "keywords": [
-    "discord",
-    "time",
-    "tag",
-    "time tag"
-  ],
+  "license": "MIT",
   "author": {
     "name": "MRDGH2821",
     "url": "http://bit.ly/mrdgh2821"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MRDGH2821/Discord-Time-Tag-Bot/issues"
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "dev": "nodemon index.js",
+    "predocker": "npm run build",
+    "docker": "docker compose up -d --build",
+    "lint": "eslint . --fix",
+    "lint:mega": "npx mega-linter-runner@latest --flavor javascript",
+    "monitor": "nodemon -r dotenv/config src/index.ts",
+    "pretty": "prettier --write .",
+    "postpretty": "npm run lint"
   },
-  "homepage": "https://github.com/MRDGH2821/Discord-Time-Tag-Bot#readme",
   "dependencies": {
-    "@vvo/tzdb": "^6.75.0",
-    "dayjs": "^1.10.7",
-    "detritus-client": "^0.17.0-beta.16",
-    "detritus-client-rest": "^0.11.0-beta.4",
-    "tslib": "^2.4.1"
+    "@vvo/tzdb": "^6.140.0",
+    "dayjs": "^1.11.11",
+    "detritus-client": "^0.17.0-beta.19",
+    "detritus-client-rest": "^0.11.0-beta.6",
+    "tslib": "^2.6.3"
   },
   "devDependencies": {
-    "@swc/core": "^1.3.14",
-    "@swc/helpers": "^0.4.12",
-    "@types/node": "^18.11.9",
-    "@typescript-eslint/eslint-plugin": "^5.42.0",
-    "@typescript-eslint/parser": "^5.42.0",
-    "dotenv": "^16.0.3",
-    "eslint": "^8.26.0",
+    "@swc/core": "^1.6.6",
+    "@swc/helpers": "^0.5.11",
+    "@types/node": "^20.14.0",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-airbnb-typescript": "^17.0.0",
-    "nodemon": "^2.0.20",
-    "prettier": "^2.7.1",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-plugin-simple-import-sort": "^12.1.0",
+    "prettier": "^3.3.2",
     "prettier-config-mrdgh2821": "^3.0.0",
-    "prettier-plugin-organize-imports": "^3.1.1",
-    "regenerator-runtime": "^0.13.10",
-    "ts-node": "^10.9.1",
-    "tsc-alias": "^1.7.0",
-    "tsconfig-paths": "^4.1.0",
-    "typescript": "^4.8.4"
+    "prettier-plugin-packagejson": "^2.5.0",
+    "regenerator-runtime": "^0.14.1",
+    "tsc-alias": "^1.8.10",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "5.4.5"
   }
 }
